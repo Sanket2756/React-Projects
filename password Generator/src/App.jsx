@@ -26,7 +26,7 @@ function App() {
   }, [length, numberAllowed, charAllowed, passwordGenerator])
 
   return (
-    // Top-Center ला आणण्यासाठी 'items-start' आणि 'pt-10' वापरले आहे
+  
     <div className='w-full h-screen flex justify-center items-center bg-[#0f172a]'>
       
       {/* Card Styling: Darker background with better borders */}
