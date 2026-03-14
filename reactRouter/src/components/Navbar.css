@@ -1,0 +1,39 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  padding: 15px 40px;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+/* Links */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.isActive{
+    color: red;
+    background-color: yellow;
+}
