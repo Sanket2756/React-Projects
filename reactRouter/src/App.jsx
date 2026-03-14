@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-     <h1 className="bg-yellow-800">Jay Shree R</h1>
+     React Router
     </>
   )
 }
